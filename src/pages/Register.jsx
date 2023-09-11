@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Resgister = () => {
+const Register = () => {
     return (
         <div>Register</div>
     )
