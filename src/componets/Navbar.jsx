@@ -14,22 +14,23 @@ const Navbar = () => {
                     <Link className='link' to="/?cat=art">
                         <h6>ART</h6>
                     </Link>
-                    <Link className='link' to="/?cat=art">
-                        <h6>ART</h6>
+                    <Link className='link' to="/?cat=science">
+                        <h6>SCIENCE</h6>
                     </Link>
-                    <Link className='link' to="/?cat=art">
-                        <h6>ART</h6>
+                    <Link className='link' to="/?cat=technology">
+                        <h6>TECHNOLOGY</h6>
                     </Link>
-                    <Link className='link' to="/?cat=art">
-                        <h6>ART</h6>
+                    <Link className='link' to="/?cat=cinema">
+                        <h6>CINEMA</h6>
                     </Link>
-                    <Link className='link' to="/?cat=art">
-                        <h6>ART</h6>
+                    <Link className='link' to="/?cat=food">
+                        <h6>FOOD</h6>
                     </Link>
+                    
                     <span>Joha</span>
                     <span>Cerrar Sesión</span>
                     <span className='write'>
-                        <Link to="/write">Escribir</Link>
+                        <Link className='link' to="/write">Escribir</Link>
                     </span>
                 </div>
                 
